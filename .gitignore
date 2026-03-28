@@ -1,0 +1,6 @@
+*.blend1
+*.blend2
+*.blend@
+*.blend~
+__pycache__/
+*.tmp
