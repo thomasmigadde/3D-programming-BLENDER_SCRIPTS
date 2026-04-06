@@ -11,7 +11,7 @@ for x in cubes:  # iterate through each cube
     x.keyframe_insert(data_path="scale", frame=1 + offset)
 
     # Grow taller
-    x.scale = (1, 1, 5)
+    x.scale = (1, 1, 4)
     x.keyframe_insert(data_path="scale", frame=50 + offset)
 
     # Hold tall
