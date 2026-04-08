@@ -3,7 +3,7 @@ import bpy
 # Create two cubes
 bpy.ops.mesh.primitive_cube_add(location=(0,0,0))
 cube1 = bpy.context.active_object
-bpy.ops.mesh.primitive_cube_add(location=(3,0,0))
+bpy.ops.mesh.primitive_cube_add(location=(4,0,0))
 cube2 = bpy.context.active_object
 
 # Add rigid body physics
